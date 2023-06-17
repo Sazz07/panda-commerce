@@ -1,0 +1,446 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Panda Commerce</title>
+    <!-- Bootstrap Link Start -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
+      crossorigin="anonymous"
+    />
+    <!-- Bootstrap Link End -->
+    <!-- Css link start -->
+    <link rel="stylesheet" href="style.css" />
+    <!-- Css link End -->
+    <!-- Favicon Icon start -->
+    <link rel="shortcut icon" href="./images/logo.png" type="image/x-icon" />
+    <!-- Favicon Icon end -->
+  </head>
+  <body>
+    <header>
+      <!-- Navbar section start -->
+      <nav
+        class="navbar navbar-expand-lg bg-body-tertiary fixed-top bg-light shadow-sm"
+      >
+        <div class="container">
+          <a class="navbar-brand" href="#">
+            <img class="img-fluid me-2" src="./images/logo.png" alt=""
+          /></a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <div class="w-50 position-relative ms-0 ms-md-4">
+              <input
+                class="bg-gray p-2 border-0 rounded-5 w-100"
+                type="search"
+                placeholder="Search"
+              />
+              <button
+                class="btn bg-gray rounded-5 px-2 py-1 d-inline position-absolute search-btn"
+              >
+                <img
+                  class="img-fluid"
+                  src="./images/search_1_.svg"
+                  alt="search"
+                />
+              </button>
+            </div>
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Shoes</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Backpack</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Subscribe</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <!-- Navbar section end -->
+      <!-- banner section start  -->
+      <section class="section-gap">
+        <div id="carouselExample" class="carousel slide container">
+          <div class="carousel-inner rounded-3 bg-banner">
+            <div class="carousel-item active">
+              <div class="row align-items-center p-5">
+                <div class="col-sm-12 col-md-7">
+                  <h1>Mega LCD TV For Sports</h1>
+                  <p>
+                    This is the best tv in the world for people who just want to
+                    waste time in front of tv.
+                  </p>
+                  <button class="btn buy-btn text-white px-4">Bye Now</button>
+                  <h1 class="primary-color">$1289</h1>
+                </div>
+                <div class="col-sm-12 col-md-5">
+                  <img
+                    class="img-fluid"
+                    src="./images/banner-images/tv.png"
+                    class="d-block w-100"
+                    alt="..."
+                  />
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="row align-items-center p-5">
+                <div class="col-sm-12 col-md-7">
+                  <h1>Cool Dude Headphone</h1>
+                  <p>
+                    This is the best headphone in the world for people who just
+                    want to waste time in front of funky world.
+                  </p>
+                  <button class="btn buy-btn text-white px-4">Bye Now</button>
+                  <h1 class="primary-color">$1289</h1>
+                </div>
+                <div class="col-sm-12 col-md-5">
+                  <img
+                    class="img-fluid"
+                    src="./images/banner-images/headphone.png"
+                    class="d-block w-100"
+                    alt="..."
+                  />
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="row align-items-center p-5">
+                <div class="col-sm-12 col-md-7">
+                  <h1>X-Box for your living room</h1>
+                  <p>
+                    This is the best headphone in the world for people who just
+                    want to waste time in front of funky world.
+                  </p>
+                  <button class="btn buy-btn text-white px-4">Bye Now</button>
+                  <h1 class="primary-color">$1289</h1>
+                </div>
+                <div class="col-sm-12 col-md-5">
+                  <img
+                    class="img-fluid"
+                    src="./images/banner-images/xbox.png"
+                    class="d-block w-100"
+                    alt="..."
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="arrow-button">
+            <button
+              class="carousel-control-prev"
+              type="button"
+              data-bs-target="#carouselExample"
+              data-bs-slide="prev"
+            >
+              <span
+                class="carousel-control-prev-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button
+              class="carousel-control-next"
+              type="button"
+              data-bs-target="#carouselExample"
+              data-bs-slide="next"
+            >
+              <span
+                class="carousel-control-next-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </div>
+      </section>
+      <!-- banner section end  -->
+    </header>
+    <main>
+      <!-- categories section start -->
+      <section class="categories-section container section-gap">
+        <h2>Categories</h2>
+        <div class="categories-container mt-3">
+          <div class="row g-4">
+            <div class="col-12 col-sm-12 col-md-6 col-lg-4">
+              <div
+                class="category-card d-flex align-items-center justify-content-around bg-watch rounded-2 text-white py-3"
+              >
+                <h1>Watch</h1>
+                <img
+                  class="img-fluid"
+                  src="./images/categories/watch.png"
+                  alt=""
+                />
+              </div>
+            </div>
+            <div class="col-12 col-sm-12 col-md-6 col-lg-4">
+              <div
+                class="category-card d-flex align-items-center justify-content-around bg-bag rounded-2 text-white py-3"
+              >
+                <h1>Bag</h1>
+                <img
+                  class="img-fluid"
+                  src="./images/categories/bag.png"
+                  alt=""
+                />
+              </div>
+            </div>
+            <div class="col-12 col-sm-12 col-md-6 col-lg-4">
+              <div
+                class="category-card d-flex align-items-center justify-content-around bg-shoes rounded-2 text-white py-3"
+              >
+                <h1>Shoes</h1>
+                <img
+                  class="img-fluid"
+                  src="./images/categories/shoes.png"
+                  alt=""
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- categories section end -->
+      <!-- Shoes and Backpack section start -->
+      <section class="section-gap bg-gray py-5">
+        <!-- Shoes Section Start -->
+        <section>
+          <div class="section shoes-section container">
+            <div class="d-flex align-items-center justify-content-between">
+              <h2>Shoes</h2>
+              <p class="text-warning fw-bold align-self-center">See All</p>
+            </div>
+            <div class="shoes-container mt-3">
+              <!-- .row>.col-12.col-sm-4.col-md-4 -->
+              <div class="row g-4">
+                <div class="col-12 col-sm-4 col-md-6 col-lg-4">
+                  <div
+                    class="shoes-card card shadow-lg p-4 rounded-4 h-100 border-0"
+                  >
+                    <div>
+                      <img
+                        class="img-fluid"
+                        src="./images/shoes/shoe-1.png"
+                        alt=""
+                      />
+                    </div>
+                    <div class="card-body text-center">
+                      <h4 class="card-title">Reebok Dart Men’s Shoes</h4>
+                      <p class="card-text">
+                        This is a wider card with supporting text below as a
+                        natural lead-in to additional content. This content is a
+                        little bit longer.
+                      </p>
+                      <h5>$1289</h5>
+                    </div>
+                    <div class="text-center">
+                      <button class="btn btn-dark px-4">Buy Now</button>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-12 col-sm-4 col-md-6 col-lg-4">
+                  <div
+                    class="shoes-card card shadow-lg p-4 rounded-4 h-100 border-0"
+                  >
+                    <div>
+                      <img
+                        class="img-fluid"
+                        src="./images/shoes/shoe-2.png"
+                        alt=""
+                      />
+                    </div>
+                    <div class="card-body text-center">
+                      <h4 class="card-title">Reebok Pump</h4>
+                      <p class="card-text">
+                        This is a wider card with supporting text below as a
+                      </p>
+                      <h5>$1289</h5>
+                    </div>
+                    <div class="text-center">
+                      <button class="btn btn-dark px-4">Buy Now</button>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-12 col-sm-4 col-md-6 col-lg-4">
+                  <div
+                    class="shoes-card card shadow-lg p-4 rounded-4 h-100 border-0"
+                  >
+                    <div>
+                      <img
+                        class="img-fluid"
+                        src="./images/shoes/shoe-3.png"
+                        alt=""
+                      />
+                    </div>
+                    <div class="card-body text-center">
+                      <h4 class="card-title">Reebok All Terrain</h4>
+                      <p class="card-text">
+                        This is a wider card with supporting text below as a
+                      </p>
+                      <h5>$1289</h5>
+                    </div>
+                    <div class="text-center">
+                      <button class="btn btn-dark px-4">Buy Now</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- Shoes Section End -->
+
+        <!-- Bags Section Start -->
+        <section class="section-gap">
+          <div class="section shoes-section container">
+            <div class="d-flex align-items-center justify-content-between">
+              <h2>Bags</h2>
+              <p class="text-warning fw-bold align-self-center">See All</p>
+            </div>
+            <div class="shoes-container mt-3">
+              <!-- .row>.col-12.col-sm-4.col-md-4 -->
+              <div class="row g-4">
+                <div class="col-12 col-sm-4 col-md-6 col-lg-4">
+                  <div
+                    class="shoes-card card shadow-lg p-4 rounded-4 h-100 border-0"
+                  >
+                    <div>
+                      <img
+                        class="img-fluid"
+                        src="./images/bags/bag-1.png"
+                        alt=""
+                      />
+                    </div>
+                    <div class="card-body text-center">
+                      <h4 class="card-title">Ison Backpack</h4>
+                      <p class="card-text">
+                        This is a wider card with supporting text below as a
+                        natural lead-in to additional content. This content is a
+                        little bit longer.
+                      </p>
+                      <h5>$1289</h5>
+                    </div>
+                    <div class="text-center">
+                      <button class="btn btn-dark px-4">Buy Now</button>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-12 col-sm-4 col-md-6 col-lg-4">
+                  <div
+                    class="shoes-card card shadow-lg p-4 rounded-4 h-100 border-0"
+                  >
+                    <div>
+                      <img
+                        class="img-fluid"
+                        src="./images/bags/bag-2.png"
+                        alt=""
+                      />
+                    </div>
+                    <div class="card-body text-center">
+                      <h4 class="card-title">Biaowang Backpack</h4>
+                      <p class="card-text">
+                        This is a wider card with supporting text below as a
+                      </p>
+                      <h5>$1289</h5>
+                    </div>
+                    <div class="text-center">
+                      <button class="btn btn-dark px-4">Buy Now</button>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-12 col-sm-4 col-md-6 col-lg-4">
+                  <div
+                    class="shoes-card card shadow-lg p-4 rounded-4 h-100 border-0"
+                  >
+                    <div>
+                      <img
+                        class="img-fluid"
+                        src="./images/bags/bag-3.png"
+                        alt=""
+                      />
+                    </div>
+                    <div class="card-body text-center">
+                      <h4 class="card-title">Dxyizu WS54 Smart</h4>
+                      <p class="card-text">
+                        This is a wider card with supporting text below as a
+                      </p>
+                      <h5>$1289</h5>
+                    </div>
+                    <div class="text-center">
+                      <button class="btn btn-dark px-4">Buy Now</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- Bags Section End -->
+      </section>
+      <!-- Shoes and Backpack section End -->
+      <!-- Subscribe Section Start -->
+      <section class="section-gap container mb-5">
+        <div
+          style="height: 40vh; background-color: #fff2f1"
+          class="subcribe-container d-flex justify-content-center align-items-center rounded-3"
+        >
+          <div>
+            <h1>LET'S STAY IN TOUCH</h1>
+            <span style="color: #707070" class="fw-semibold"
+              >Get updates on sales specials and more</span
+            >
+            <div class="w-100 mt-3">
+              <div class="input-group">
+                <input
+                  type="text"
+                  class="form-control border-0 py-3"
+                  placeholder="Enter your email"
+                  aria-label="Recipient's username"
+                  aria-describedby="button-addon2"
+                />
+                <button
+                  class="btn btn-outline-secondary border-0 buy-btn text-white px-4"
+                  type="button"
+                  id="button-addon2"
+                >
+                  Send
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Subscribe Section End -->
+    </main>
+    <!-- Footer Star -->
+    <footer>
+      <p class="text-center">©2023. Panda Commerce. All rights reserved. Sazzad, Bangladesh.</p>
+    </footer>
+    <!-- Footer End -->
+    <!-- Bootstrap Script Start-->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+      crossorigin="anonymous"
+    ></script>
+    <!-- Bootstrap Script End-->
+  </body>
+</html>
